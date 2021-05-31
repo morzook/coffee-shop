@@ -129,7 +129,7 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: column ;
     justify-content: center ;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -145,7 +145,7 @@ background-repeat: no-repeat;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
    
 }
