@@ -156,13 +156,13 @@ background-repeat: no-repeat;
     color: white;
     border-radius: 5px;
     width: 40%;
-    height: 42%;
+    height: 45%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     line-height: 15px;
     
 }
