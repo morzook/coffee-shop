@@ -140,7 +140,7 @@ background-repeat: no-repeat;
 
 .achievement-boxes{
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column ;
     justify-content: center;
