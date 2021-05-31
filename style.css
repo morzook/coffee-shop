@@ -1,0 +1,264 @@
+body{
+    font-family: "font-family:courier,arial,helvetica";
+
+}
+
+.hero{
+    height: 90vh;
+    background-image: url("coffee-beans-with-props.jpg") ;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.hero-text{
+    width: 35%;
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 3px 2px 2px darkred;
+}
+
+.hero-btn{
+    background: linear-gradient(270deg, hsla(356, 80%, 53%, 0.9) 20%, hsla(346, 91%, 87%, 1) 100%);
+    border: none;
+    font-family: 'Odibee Sans', cursive;
+    color: white;
+    width: 20rem;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.hero-image-container{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-text-2{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coffee-bean-img{
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-bottom: -200px;
+   
+}
+
+.who{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.who-we-are{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.who-image-container{
+width: 50%;
+height: 50vh;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.who-image{
+  height: fit-content;
+  height: 350px;
+  width: 270px;
+
+}
+
+.who-text{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url("cof bean.png") ;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.who-text-paragraph{
+    width: 50%;
+    height: 70%;
+}
+
+/* #overlay{
+    height: 50vh;
+    background-color: rgb(20, 1, 1) ;
+    background-size: cover;
+    opacity: 0.9;
+} */
+
+.achievements{
+    height: 50vh;
+    background-image: url("coffee-cup-with-smoke-on-black-background.jpg") ;
+    background-position: center;
+    color: white;
+    background-size:cover;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.achievements-heading{
+    border: 2px solid red;
+    color: white;
+}
+
+.achievement-boxes{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+.box-1, .box-2, .box-3, .box-4{ 
+    border: 6px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-image: url("brick.jpg");
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.board-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+}
+
+.board-img{
+    width: 35% ;
+    height: 60% ;
+}
+
+.bean-flavour{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bean, .flavour{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.bean-image, .flavour-image {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bean-text, .flavour-text{
+    width: 35%;
+    height: 90%;
+    line-height: 25px;
+}
+
+.bean-bag{
+    width: 70%;
+    height: 90%;
+}
+
+.espresso {
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.experience{
+    height: 80vh;
+    background-image: url("coffee-beans-top-view.jpg");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.experience-text{
+    width: 30%;
+    height: 30%;
+    color: black;
+
+}
+
