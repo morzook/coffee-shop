@@ -134,18 +134,18 @@ background-repeat: no-repeat;
 }
 
 .achievements-heading{
-    border: 2px solid red;
     color: white;
 }
 
 .achievement-boxes{
+    border: 2px solid red;
     width: 100%;
-    height: 95%;
+    height: 90%;
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    
     flex-wrap: wrap;
     line-height: 15px;
    
@@ -163,7 +163,7 @@ background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    line-height: 12px;
     
 }
 
