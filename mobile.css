@@ -249,7 +249,7 @@ background-repeat: no-repeat;
 
 .experience{
     height: 50vh;
-    background-image: url("coffee-beans-top-view.JPG");
+    background-image: url("coffee-beans-top-view-mobile.JPG");
     /* background-size:cover; */
     background-repeat: no-repeat;
     display: flex;
