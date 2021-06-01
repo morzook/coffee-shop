@@ -249,7 +249,6 @@ background-repeat: no-repeat;
 
 .experience{
     height: 50vh;
-    max-width: 480px;
     background-image: url("coffee-beans-top-view.JPG");
     background-size:cover;
     display: flex;
