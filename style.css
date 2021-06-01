@@ -247,18 +247,35 @@ background-repeat: no-repeat;
 .experience{
     height: 80vh;
     background-image: url("coffee-beans-top-view.jpg");
-    background-size:cover;
+    background-size:cover;  
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center; 
+}
 
+.experience-container{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-top: -150px;
 }
 
 .experience-text{
-    width: 30%;
-    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 70%;
     color: black;
+
+}
+
+.mug{
+    width: 400px;
+    height: 400px;
 
 }
 
